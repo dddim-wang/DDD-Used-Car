@@ -1,0 +1,5 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d0ad894f-a005-4bea-8baf-1aa40920c790/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/used-car-frontend",
+    "appService.deploySubpath": "frontend/build"
+  }
+  

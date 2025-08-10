@@ -1,0 +1,90 @@
+* Base layout and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Top navigation bar */
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  /* Headings and text */
+  h1, h2, h3, p {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Main content container */
+  .container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Car listing card */
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form wrapper */
+  form {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 6px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form elements */
+  form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
