@@ -20,6 +20,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+ "scripts": {
+    "build": "vite build",
+    "start": "vite preview --host --port $PORT"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
